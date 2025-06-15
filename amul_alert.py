@@ -24,15 +24,7 @@ logging.basicConfig(
 
 # ===== STOCK CHECKER =====
 
-
-# TEST MODE - Add at the top of your file
-TEST_MODE = False  # Set to False after testing
-
-
 def check_stock():
-    if TEST_MODE:
-        print("TEST: Simulating 'in stock'")
-        return True  # Force notification
     try:
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
