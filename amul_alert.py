@@ -30,7 +30,7 @@ TEST_MODE = True  # Set to False after testing
 
 
 def check_stock():
-        if TEST_MODE:
+    if TEST_MODE:
         print("TEST: Simulating 'in stock'")
         return True  # Force notification
     try:
