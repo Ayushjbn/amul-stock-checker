@@ -26,7 +26,7 @@ logging.basicConfig(
 
 
 # TEST MODE - Add at the top of your file
-TEST_MODE = True  # Set to False after testing
+TEST_MODE = False  # Set to False after testing
 
 
 def check_stock():
