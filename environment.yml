@@ -1,0 +1,7 @@
+name: amul_alert
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - requests==2.28.1
+      - beautifulsoup4==4.11.1
